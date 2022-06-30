@@ -3,12 +3,12 @@
     <h2 class="formulario__titulo">Nova Transfêrencia</h2>
     <div class="form-field">
       <label class="form-field__label" for="valor">Valor </label>
-      <input class="form-field__label" type="text" id="valor" />
+      <input class="form-field__label" type="text" id="valor" [(ngModel)]="valor" name="valor" />
     </div>
 
     <div class="form-field">
       <label class="form-field__label" for="destino">Destino </label>
-      <input class="form-field__label" type="text" id="destino" />
+      <input class="form-field__label" type="text" id="destino" [(ngModel)]="destino" name="destino" />
     </div>
 
     <button class="botao" type="submit">Enviar</button>
