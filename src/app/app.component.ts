@@ -7,6 +7,9 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+
+  transferir($event){
+    console.log($event);
+  }
+
 }
-//Teste
-//teste2
